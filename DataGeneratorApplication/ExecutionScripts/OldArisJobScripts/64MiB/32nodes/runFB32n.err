@@ -1,0 +1,570 @@
+[node184:28249] *** Process received signal ***
+[node184:28249] Signal: Segmentation fault (11)
+[node184:28249] Signal code: Address not mapped (1)
+[node184:28249] Failing at address: 0x7f5924d8c010
+[node184:28249] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f673f0137e0]
+[node184:28249] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f673ecf987b]
+[node184:28249] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f673e6fcc1d]
+[node184:28249] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f672d89dd82]
+[node184:28249] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f672c63397a]
+[node184:28249] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f672c620601]
+[node184:28249] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f672b7c902f]
+[node184:28249] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f673f2a6a58]
+[node184:28249] [ 8] ./MemBoundJacobi[0x401409]
+[node184:28249] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f673ec8ed20]
+[node184:28249] [10] ./MemBoundJacobi[0x401ec5]
+[node184:28249] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:28492] *** Process received signal ***
+[node184:28492] Signal: Segmentation fault (11)
+[node184:28492] Signal code: Address not mapped (1)
+[node184:28492] Failing at address: 0x7fc466075010
+[node184:28492] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fd2803ae7e0]
+[node184:28492] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fd28009487b]
+[node184:28492] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fd27fa97c1d]
+[node184:28492] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fd26eb86d82]
+[node184:28492] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fd26d91c97a]
+[node184:28492] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fd26d909601]
+[node184:28492] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fd26cab202f]
+[node184:28492] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fd280641a58]
+[node184:28492] [ 8] ./MemBoundJacobi[0x401409]
+[node184:28492] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fd280029d20]
+[node184:28492] [10] ./MemBoundJacobi[0x401ec5]
+[node184:28492] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:28732] *** Process received signal ***
+[node184:28732] Signal: Segmentation fault (11)
+[node184:28732] Signal code: Address not mapped (1)
+[node184:28732] Failing at address: 0x7f84a97de010
+[node184:28732] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f92c3ad37e0]
+[node184:28732] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f92c37b987b]
+[node184:28732] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f92c31bcc1d]
+[node184:28732] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f92b22efd82]
+[node184:28732] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f92b108597a]
+[node184:28732] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f92b1072601]
+[node184:28732] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f92b021b02f]
+[node184:28732] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f92c3d66a58]
+[node184:28732] [ 8] ./MemBoundJacobi[0x401409]
+[node184:28732] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f92c374ed20]
+[node184:28732] [10] ./MemBoundJacobi[0x401ec5]
+[node184:28732] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:28984] *** Process received signal ***
+[node184:28984] Signal: Segmentation fault (11)
+[node184:28984] Signal code: Address not mapped (1)
+[node184:28984] Failing at address: 0x7fb45cd8c010
+[node184:28984] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fc2770317e0]
+[node184:28984] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fc276d1787b]
+[node184:28984] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fc27671ac1d]
+[node184:28984] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fc26589dd82]
+[node184:28984] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fc26463397a]
+[node184:28984] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fc264620601]
+[node184:28984] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fc2637c902f]
+[node184:28984] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fc2772c4a58]
+[node184:28984] [ 8] ./MemBoundJacobi[0x401409]
+[node184:28984] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fc276cacd20]
+[node184:28984] [10] ./MemBoundJacobi[0x401ec5]
+[node184:28984] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:29212] *** Process received signal ***
+[node184:29212] Signal: Segmentation fault (11)
+[node184:29212] Signal code: Address not mapped (1)
+[node184:29212] Failing at address: 0x7f2f4792d010
+[node184:29212] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f3d61b877e0]
+[node184:29212] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f3d6186d87b]
+[node184:29212] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f3d61270c1d]
+[node184:29212] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f3d5447dd82]
+[node184:29212] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f3d4f1d497a]
+[node184:29212] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f3d4f1c1601]
+[node184:29212] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f3d4e36a02f]
+[node184:29212] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f3d61e1aa58]
+[node184:29212] [ 8] ./MemBoundJacobi[0x401409]
+[node184:29212] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f3d61802d20]
+[node184:29212] [10] ./MemBoundJacobi[0x401ec5]
+[node184:29212] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:29455] *** Process received signal ***
+[node184:29455] Signal: Segmentation fault (11)
+[node184:29455] Signal code: Address not mapped (1)
+[node184:29455] Failing at address: 0x7f49b8d7e010
+[node184:29455] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f57d2ec57e0]
+[node184:29455] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f57d2bab87b]
+[node184:29455] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f57d25aec1d]
+[node184:29455] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f57c569ad82]
+[node184:29455] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f57c443097a]
+[node184:29455] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f57c441d601]
+[node184:29455] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f57bf5bd02f]
+[node184:29455] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f57d3158a58]
+[node184:29455] [ 8] ./MemBoundJacobi[0x401409]
+[node184:29455] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f57d2b40d20]
+[node184:29455] [10] ./MemBoundJacobi[0x401ec5]
+[node184:29455] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:29720] *** Process received signal ***
+[node184:29720] Signal: Segmentation fault (11)
+[node184:29720] Signal code: Address not mapped (1)
+[node184:29720] Failing at address: 0x7fb3d474f010
+[node184:29720] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fc1ee82e7e0]
+[node184:29720] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fc1ee51487b]
+[node184:29720] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fc1edf17c1d]
+[node184:29720] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fc1e1093d82]
+[node184:29720] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fc1dbdf897a]
+[node184:29720] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fc1dbde5601]
+[node184:29720] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fc1daf8e02f]
+[node184:29720] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fc1eeac1a58]
+[node184:29720] [ 8] ./MemBoundJacobi[0x401409]
+[node184:29720] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fc1ee4a9d20]
+[node184:29720] [10] ./MemBoundJacobi[0x401ec5]
+[node184:29720] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:29957] *** Process received signal ***
+[node184:29957] Signal: Segmentation fault (11)
+[node184:29957] Signal code: Address not mapped (1)
+[node184:29957] Failing at address: 0x7f8170d8c010
+[node184:29957] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f8f8b0e97e0]
+[node184:29957] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f8f8adcf87b]
+[node184:29957] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f8f8a7d2c1d]
+[node184:29957] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f8f7989dd82]
+[node184:29957] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f8f7863397a]
+[node184:29957] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f8f78620601]
+[node184:29957] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f8f777c902f]
+[node184:29957] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f8f8b37ca58]
+[node184:29957] [ 8] ./MemBoundJacobi[0x401409]
+[node184:29957] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f8f8ad64d20]
+[node184:29957] [10] ./MemBoundJacobi[0x401ec5]
+[node184:29957] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:30195] *** Process received signal ***
+[node184:30195] Signal: Segmentation fault (11)
+[node184:30195] Signal code: Address not mapped (1)
+[node184:30195] Failing at address: 0x7f0d855c6010
+[node184:30195] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f1b9f8957e0]
+[node184:30195] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f1b9f57b87b]
+[node184:30195] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f1b9ef7ec1d]
+[node184:30195] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f1b8e0d7d82]
+[node184:30195] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f1b8ce6d97a]
+[node184:30195] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f1b8ce5a601]
+[node184:30195] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f1b8c00302f]
+[node184:30195] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f1b9fb28a58]
+[node184:30195] [ 8] ./MemBoundJacobi[0x401409]
+[node184:30195] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f1b9f510d20]
+[node184:30195] [10] ./MemBoundJacobi[0x401ec5]
+[node184:30195] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:30429] *** Process received signal ***
+[node184:30429] Signal: Segmentation fault (11)
+[node184:30429] Signal code: Address not mapped (1)
+[node184:30429] Failing at address: 0x7f143ff45010
+[node184:30429] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f225a0667e0]
+[node184:30429] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f2259d4c87b]
+[node184:30429] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f225974fc1d]
+[node184:30429] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f224c885d82]
+[node184:30429] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f22475ee97a]
+[node184:30429] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f22475db601]
+[node184:30429] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f224678402f]
+[node184:30429] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f225a2f9a58]
+[node184:30429] [ 8] ./MemBoundJacobi[0x401409]
+[node184:30429] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f2259ce1d20]
+[node184:30429] [10] ./MemBoundJacobi[0x401ec5]
+[node184:30429] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:30693] *** Process received signal ***
+[node184:30693] Signal: Segmentation fault (11)
+[node184:30693] Signal code: Address not mapped (1)
+[node184:30693] Failing at address: 0x7f9152ad8010
+[node184:30693] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f9f6ce1c7e0]
+[node184:30693] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f9f6cb0287b]
+[node184:30693] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f9f6c505c1d]
+[node184:30693] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f9f5b5e9d82]
+[node184:30693] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f9f5a37f97a]
+[node184:30693] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f9f5a36c601]
+[node184:30693] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f9f5951502f]
+[node184:30693] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f9f6d0afa58]
+[node184:30693] [ 8] ./MemBoundJacobi[0x401409]
+[node184:30693] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f9f6ca97d20]
+[node184:30693] [10] ./MemBoundJacobi[0x401ec5]
+[node184:30693] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:30920] *** Process received signal ***
+[node184:30920] Signal: Segmentation fault (11)
+[node184:30920] Signal code: Address not mapped (1)
+[node184:30920] Failing at address: 0x7f085aedf010
+[node184:30920] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f16751bf7e0]
+[node184:30920] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f1674ea587b]
+[node184:30920] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f16748a8c1d]
+[node184:30920] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f16639f0d82]
+[node184:30920] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f166278697a]
+[node184:30920] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f1662773601]
+[node184:30920] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f166191c02f]
+[node184:30920] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f1675452a58]
+[node184:30920] [ 8] ./MemBoundJacobi[0x401409]
+[node184:30920] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f1674e3ad20]
+[node184:30920] [10] ./MemBoundJacobi[0x401ec5]
+[node184:30920] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:31158] *** Process received signal ***
+[node184:31158] Signal: Segmentation fault (11)
+[node184:31158] Signal code: Address not mapped (1)
+[node184:31158] Failing at address: 0x7f943074f010
+[node184:31158] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fa24a87f7e0]
+[node184:31158] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fa24a56587b]
+[node184:31158] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fa249f68c1d]
+[node184:31158] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fa23d093d82]
+[node184:31158] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fa237df897a]
+[node184:31158] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fa237de5601]
+[node184:31158] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fa236f8e02f]
+[node184:31158] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fa24ab12a58]
+[node184:31158] [ 8] ./MemBoundJacobi[0x401409]
+[node184:31158] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fa24a4fad20]
+[node184:31158] [10] ./MemBoundJacobi[0x401ec5]
+[node184:31158] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:31392] *** Process received signal ***
+[node184:31392] Signal: Segmentation fault (11)
+[node184:31392] Signal code: Address not mapped (1)
+[node184:31392] Failing at address: 0x7fe052ad8010
+[node184:31392] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fee6ce3e7e0]
+[node184:31392] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fee6cb2487b]
+[node184:31392] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fee6c527c1d]
+[node184:31392] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fee5b5e9d82]
+[node184:31392] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fee5a37f97a]
+[node184:31392] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fee5a36c601]
+[node184:31392] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fee5951502f]
+[node184:31392] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fee6d0d1a58]
+[node184:31392] [ 8] ./MemBoundJacobi[0x401409]
+[node184:31392] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fee6cab9d20]
+[node184:31392] [10] ./MemBoundJacobi[0x401ec5]
+[node184:31392] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:31656] *** Process received signal ***
+[node184:31656] Signal: Segmentation fault (11)
+[node184:31656] Signal code: Address not mapped (1)
+[node184:31656] Failing at address: 0x7ef56bf45010
+[node184:31656] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f038621e7e0]
+[node184:31656] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f0385f0487b]
+[node184:31656] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f0385907c1d]
+[node184:31656] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f0378a8bd82]
+[node184:31656] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f03739ef97a]
+[node184:31656] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f03739dc601]
+[node184:31656] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f0372b8502f]
+[node184:31656] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f03864b1a58]
+[node184:31656] [ 8] ./MemBoundJacobi[0x401409]
+[node184:31656] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f0385e99d20]
+[node184:31656] [10] ./MemBoundJacobi[0x401ec5]
+[node184:31656] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:03412] *** Process received signal ***
+[node184:03412] Signal: Segmentation fault (11)
+[node184:03412] Signal code: Address not mapped (1)
+[node184:03412] Failing at address: 0x7f5dcbf45010
+[node184:03412] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f6be60747e0]
+[node184:03412] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f6be5d5a87b]
+[node184:03412] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f6be575dc1d]
+[node184:03412] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f6bd8885d82]
+[node184:03412] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f6bd35ee97a]
+[node184:03412] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f6bd35db601]
+[node184:03412] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f6bd278402f]
+[node184:03412] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f6be6307a58]
+[node184:03412] [ 8] ./CompBoundJacobi[0x401409]
+[node184:03412] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f6be5cefd20]
+[node184:03412] [10] ./CompBoundJacobi[0x401ec5]
+[node184:03412] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:03656] *** Process received signal ***
+[node184:03656] Signal: Segmentation fault (11)
+[node184:03656] Signal code: Address not mapped (1)
+[node184:03656] Failing at address: 0x7ef6093b6010
+[node184:03656] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f04237297e0]
+[node184:03656] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f042340f87b]
+[node184:03656] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f0422e12c1d]
+[node184:03656] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f0411ec7d82]
+[node184:03656] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f0410c5d97a]
+[node184:03656] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f0410c4a601]
+[node184:03656] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f040fdf302f]
+[node184:03656] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f04239bca58]
+[node184:03656] [ 8] ./CompBoundJacobi[0x401409]
+[node184:03656] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f04233a4d20]
+[node184:03656] [10] ./CompBoundJacobi[0x401ec5]
+[node184:03656] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:03899] *** Process received signal ***
+[node184:03899] Signal: Segmentation fault (11)
+[node184:03899] Signal code: Address not mapped (1)
+[node184:03899] Failing at address: 0x7f945b4f1010
+[node184:03899] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fa2758607e0]
+[node184:03899] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fa27554687b]
+[node184:03899] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fa274f49c1d]
+[node184:03899] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fa26807dd82]
+[node184:03899] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fa262d9897a]
+[node184:03899] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fa262d85601]
+[node184:03899] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fa261f2e02f]
+[node184:03899] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fa275af3a58]
+[node184:03899] [ 8] ./CompBoundJacobi[0x401409]
+[node184:03899] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fa2754dbd20]
+[node184:03899] [10] ./CompBoundJacobi[0x401ec5]
+[node184:03899] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:04189] *** Process received signal ***
+[node184:04189] Signal: Segmentation fault (11)
+[node184:04189] Signal code: Address not mapped (1)
+[node184:04189] Failing at address: 0x7fb40434b010
+[node184:04189] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fc21e4d37e0]
+[node184:04189] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fc21e1b987b]
+[node184:04189] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fc21dbbcc1d]
+[node184:04189] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fc210c8fd82]
+[node184:04189] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fc20bbf297a]
+[node184:04189] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fc20bbdf601]
+[node184:04189] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fc20ad8802f]
+[node184:04189] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fc21e766a58]
+[node184:04189] [ 8] ./CompBoundJacobi[0x401409]
+[node184:04189] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fc21e14ed20]
+[node184:04189] [10] ./CompBoundJacobi[0x401ec5]
+[node184:04189] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:04441] *** Process received signal ***
+[node184:04441] Signal: Segmentation fault (11)
+[node184:04441] Signal code: Address not mapped (1)
+[node184:04441] Failing at address: 0x7fce1ead1010
+[node184:04441] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fdc38c897e0]
+[node184:04441] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fdc3896f87b]
+[node184:04441] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fdc38372c1d]
+[node184:04441] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fdc271e3d82]
+[node184:04441] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fdc2617b97a]
+[node184:04441] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fdc26168601]
+[node184:04441] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fdc2531102f]
+[node184:04441] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fdc38f1ca58]
+[node184:04441] [ 8] ./CompBoundJacobi[0x401409]
+[node184:04441] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fdc38904d20]
+[node184:04441] [10] ./CompBoundJacobi[0x401ec5]
+[node184:04441] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:04678] *** Process received signal ***
+[node184:04678] Signal: Segmentation fault (11)
+[node184:04678] Signal code: Address not mapped (1)
+[node184:04678] Failing at address: 0x7f5e07f45010
+[node184:04678] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f6c2206b7e0]
+[node184:04678] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f6c21d5187b]
+[node184:04678] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f6c21754c1d]
+[node184:04678] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f6c14885d82]
+[node184:04678] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f6c0f5ee97a]
+[node184:04678] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f6c0f5db601]
+[node184:04678] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f6c0e78402f]
+[node184:04678] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f6c222fea58]
+[node184:04678] [ 8] ./CompBoundJacobi[0x401409]
+[node184:04678] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f6c21ce6d20]
+[node184:04678] [10] ./CompBoundJacobi[0x401ec5]
+[node184:04678] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:04939] *** Process received signal ***
+[node184:04939] Signal: Segmentation fault (11)
+[node184:04939] Signal code: Address not mapped (1)
+[node184:04939] Failing at address: 0x7fad4b0e3010
+[node184:04939] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fbb653ae7e0]
+[node184:04939] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fbb6509487b]
+[node184:04939] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fbb64a97c1d]
+[node184:04939] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fbb53bf4d82]
+[node184:04939] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fbb5298a97a]
+[node184:04939] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fbb52977601]
+[node184:04939] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fbb51b2002f]
+[node184:04939] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fbb65641a58]
+[node184:04939] [ 8] ./CompBoundJacobi[0x401409]
+[node184:04939] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fbb65029d20]
+[node184:04939] [10] ./CompBoundJacobi[0x401ec5]
+[node184:04939] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:05219] *** Process received signal ***
+[node184:05219] Signal: Segmentation fault (11)
+[node184:05219] Signal code: Address not mapped (1)
+[node184:05219] Failing at address: 0x7f8b34779010
+[node184:05219] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f994ea527e0]
+[node184:05219] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f994e73887b]
+[node184:05219] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f994e13bc1d]
+[node184:05219] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f9941296d82]
+[node184:05219] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f994002c97a]
+[node184:05219] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f9940019601]
+[node184:05219] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f993b1b602f]
+[node184:05219] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f994ece5a58]
+[node184:05219] [ 8] ./CompBoundJacobi[0x401409]
+[node184:05219] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f994e6cdd20]
+[node184:05219] [10] ./CompBoundJacobi[0x401ec5]
+[node184:05219] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:05451] *** Process received signal ***
+[node184:05451] Signal: Segmentation fault (11)
+[node184:05451] Signal code: Address not mapped (1)
+[node184:05451] Failing at address: 0x7f7c99bfe010
+[node184:05451] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f8ab40b37e0]
+[node184:05451] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f8ab3d9987b]
+[node184:05451] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f8ab379cc1d]
+[node184:05451] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f8aa270fd82]
+[node184:05451] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f8aa14a597a]
+[node184:05451] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f8aa1492601]
+[node184:05451] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f8aa063b02f]
+[node184:05451] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f8ab4346a58]
+[node184:05451] [ 8] ./CompBoundJacobi[0x401409]
+[node184:05451] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f8ab3d2ed20]
+[node184:05451] [10] ./CompBoundJacobi[0x401ec5]
+[node184:05451] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:05689] *** Process received signal ***
+[node184:05689] Signal: Segmentation fault (11)
+[node184:05689] Signal code: Address not mapped (1)
+[node184:05689] Failing at address: 0x7f86d3d42010
+[node184:05689] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f94ee0067e0]
+[node184:05689] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f94edcec87b]
+[node184:05689] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f94ed6efc1d]
+[node184:05689] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f94e0885d82]
+[node184:05689] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f94db5ee97a]
+[node184:05689] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f94db5db601]
+[node184:05689] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f94da78402f]
+[node184:05689] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f94ee299a58]
+[node184:05689] [ 8] ./CompBoundJacobi[0x401409]
+[node184:05689] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f94edc81d20]
+[node184:05689] [10] ./CompBoundJacobi[0x401ec5]
+[node184:05689] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:05923] *** Process received signal ***
+[node184:05923] Signal: Segmentation fault (11)
+[node184:05923] Signal code: Address not mapped (1)
+[node184:05923] Failing at address: 0x7f03555c6010
+[node184:05923] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f116f98f7e0]
+[node184:05923] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f116f67587b]
+[node184:05923] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f116f078c1d]
+[node184:05923] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f115e0d7d82]
+[node184:05923] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f115ce6d97a]
+[node184:05923] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f115ce5a601]
+[node184:05923] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f115c00302f]
+[node184:05923] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f116fc22a58]
+[node184:05923] [ 8] ./CompBoundJacobi[0x401409]
+[node184:05923] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f116f60ad20]
+[node184:05923] [10] ./CompBoundJacobi[0x401ec5]
+[node184:05923] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:06187] *** Process received signal ***
+[node184:06187] Signal: Segmentation fault (11)
+[node184:06187] Signal code: Address not mapped (1)
+[node184:06187] Failing at address: 0x7f12276ed010
+[node184:06187] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f20419467e0]
+[node184:06187] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f204162c87b]
+[node184:06187] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f204102fc1d]
+[node184:06187] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f203407ed82]
+[node184:06187] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f202ef9a97a]
+[node184:06187] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f202ef87601]
+[node184:06187] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f202e13002f]
+[node184:06187] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f2041bd9a58]
+[node184:06187] [ 8] ./CompBoundJacobi[0x401409]
+[node184:06187] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f20415c1d20]
+[node184:06187] [10] ./CompBoundJacobi[0x401ec5]
+[node184:06187] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:06450] *** Process received signal ***
+[node184:06450] Signal: Segmentation fault (11)
+[node184:06450] Signal code: Address not mapped (1)
+[node184:06450] Failing at address: 0x7f73055c6010
+[node184:06450] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f811fa0a7e0]
+[node184:06450] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f811f6f087b]
+[node184:06450] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f811f0f3c1d]
+[node184:06450] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f810e0d7d82]
+[node184:06450] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f810ce6d97a]
+[node184:06450] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f810ce5a601]
+[node184:06450] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f810c00302f]
+[node184:06450] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f811fc9da58]
+[node184:06450] [ 8] ./CompBoundJacobi[0x401409]
+[node184:06450] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f811f685d20]
+[node184:06450] [10] ./CompBoundJacobi[0x401ec5]
+[node184:06450] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:06796] *** Process received signal ***
+[node184:06796] Signal: Segmentation fault (11)
+[node184:06796] Signal code: Address not mapped (1)
+[node184:06796] Failing at address: 0x7f5d46ed7010
+[node184:06796] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7f6b6101a7e0]
+[node184:06796] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7f6b60d0087b]
+[node184:06796] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7f6b60703c1d]
+[node184:06796] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7f6b4f5e9d82]
+[node184:06796] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7f6b4e58197a]
+[node184:06796] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7f6b4e56e601]
+[node184:06796] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7f6b4d71702f]
+[node184:06796] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7f6b612ada58]
+[node184:06796] [ 8] ./CompBoundJacobi[0x401409]
+[node184:06796] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7f6b60c95d20]
+[node184:06796] [10] ./CompBoundJacobi[0x401ec5]
+[node184:06796] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[node184:07092] *** Process received signal ***
+[node184:07092] Signal: Segmentation fault (11)
+[node184:07092] Signal code: Address not mapped (1)
+[node184:07092] Failing at address: 0x7fc8aff45010
+[node184:07092] [ 0] /lib64/libpthread.so.0(+0xf7e0)[0x7fd6ca1807e0]
+[node184:07092] [ 1] /lib64/libc.so.6(memcpy+0x15b)[0x7fd6c9e6687b]
+[node184:07092] [ 2] /apps/parallel/openmpi/3.1.0/gnu/lib/libopen-pal.so.40(opal_generic_simple_pack+0x4ad)[0x7fd6c9869c1d]
+[node184:07092] [ 3] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_btl_vader.so(+0x2d82)[0x7fd6bca8bd82]
+[node184:07092] [ 4] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_rndv+0x1ca)[0x7fd6b79ef97a]
+[node184:07092] [ 5] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send+0xdf1)[0x7fd6b79dc601]
+[node184:07092] [ 6] /apps/parallel/openmpi/3.1.0/gnu/lib/openmpi/mca_coll_basic.so(mca_coll_basic_scatterv_intra+0xff)[0x7fd6b6b8502f]
+[node184:07092] [ 7] /apps/parallel/openmpi/3.1.0/gnu/lib/libmpi.so.40(PMPI_Scatterv+0x118)[0x7fd6ca413a58]
+[node184:07092] [ 8] ./CompBoundJacobi[0x401409]
+[node184:07092] [ 9] /lib64/libc.so.6(__libc_start_main+0x100)[0x7fd6c9dfbd20]
+[node184:07092] [10] ./CompBoundJacobi[0x401ec5]
+[node184:07092] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node184 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

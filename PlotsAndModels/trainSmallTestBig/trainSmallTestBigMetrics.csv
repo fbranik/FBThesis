@@ -1,0 +1,12 @@
+Name,R^2,RMSE,MAPE,Model
+Training_Metrics_(Measured_Communication_Time),0.857,0.333,0.547,Random Forest
+Testing_Metrics_(Measured_Communication_Time),0.746,0.429,0.599,Random Forest
+UnseenData_only_Metrics_(Measured_Communication_Time),0.649,0.544,0.409,Random Forest
+Training_Metrics_(Measured_Communication_Time),0.987,0.099,0.137,Gradient Boosting
+Testing_Metrics_(Measured_Communication_Time),0.878,0.298,0.253,Gradient Boosting
+UnseenData_only_Metrics_(Measured_Communication_Time),0.711,0.493,0.36,Gradient Boosting
+WholeData_Metrics_(Measured_Communication_Time),0.843,0.353,0.256,Gradient Boosting
+Training_Metrics_(Measured_Communication_Time),0.992,0.08,0.119,Tuned Gradient Boosting
+Testing_Metrics_(Measured_Communication_Time),0.854,0.326,0.241,Tuned Gradient Boosting
+UnseenData_only_Metrics_(Measured_Communication_Time),0.466,0.671,3.986,Tuned Gradient Boosting
+WholeData_Metrics_(Measured_Communication_Time),0.732,0.462,1.746,Tuned Gradient Boosting
