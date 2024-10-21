@@ -1,2 +1,0 @@
-mpirun: Forwarding signal 18 to job
-slurmstepd: error: *** JOB 1554456 ON node106 CANCELLED AT 2023-11-18T18:55:00 ***
