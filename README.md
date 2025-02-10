@@ -20,7 +20,6 @@ importance.
 
 For further details, please see [FotisBranikasThesisEN.pdf](Documents/FotisBranikasThesisEN.pdf).
 
-A web-based presenation of this thesis can be found at https://sleepymax.servebeer.com:5001/
 
 ### Repository Contents 
 
