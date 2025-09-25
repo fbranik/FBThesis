@@ -69,4 +69,4 @@ arisDatasetAnalysisDF.columns = arisDatasetAnalysisDF.columns.str.replace('_', '
 dashApp = createDashApp(arisDatasetAnalysisDF, features, times, processesPerNode, msgSizes,
                         numberOfMessages, workingSetSize, numberOfNodes)
 
-dashApp.run(jupyter_mode="external", debug=True, dev_tools_silence_routes_logging=False, port=8051)
+dashApp.run(dev_tools_silence_routes_logging=False, port=4100)
